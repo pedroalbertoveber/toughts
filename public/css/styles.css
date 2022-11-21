@@ -1,0 +1,153 @@
+* {
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+#logo img {
+  height: 40px;
+}
+
+#navbar {
+  padding: 1.2em 1.4em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  border-bottom: 1px solid #f6982d;
+  height: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+
+#navbar ul li {
+  margin-left: 1em;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .2s;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  color: #f6982d;
+}
+
+/* CONTAINER */
+.container {
+  min-height: 60vh;
+  padding: 2em;
+  background-color: #222;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* LOGIN AND REGISTER */
+.auth-container {
+  background-color: #222;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container h2 {
+  margin-bottom: 1em;
+  color: #fff;
+  border-left: 4px solid #f6982d;
+  padding: .3em;
+  width: 100px;
+  font-weight: bold;
+}
+
+.auth-container a {
+  color: #f6982d;
+}
+
+/* FORM */
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  background-color: #222;
+  border: 0;
+  padding: 0;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.form-control input,
+.form-control textarea {
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #f6982d;
+}
+
+form input[type="submit"],
+.btn {
+  background-color: transparent;
+  color: #f6982d;
+  border: 2px solid #f6982d;
+  padding: .5em 1.2em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+form input[type="submit"]:hover,
+.btn:hover {
+  background-color: #f6982d;
+  color: #fff;
+}
+
+
+/* FOOTER */
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #f6982d;
+}
+
+footer p span {
+  font-weight: bold;
+  color: #f6982d;
+}
+
+/* FLASH MESSAGE */
+.message {
+  padding: 1em;
+  color: #004085;
+  background-color: #ccd5ff;
+  border: 1px solid #b8daff;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 2em;
+  max-width: 450px;
+}
